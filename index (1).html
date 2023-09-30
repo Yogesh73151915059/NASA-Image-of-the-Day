@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasa Picture Of The Day</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <section id="current-image-container">
+        <h1 id="currentImageDateHeading">Nasa Picture Of The Day</h1>
+        <img id="current-image"  alt="image of the day">
+        <h2 id="imageTitle"></h2>
+        <p id="imgDescription"></p>
+    </section> 
+    <section id="form-div">
+        <h3>Search for a Picture of the Day</h3>
+        <form id="search-form">
+            <label for="search-input">Select a Date: </label>
+            <input id="search-input" type="date" >
+            
+            <button id="submitBtn" type="submit">Submit</button>
+        </form>
+    </section>
+    <section id="search-history-container">
+          <h3 id="prevSearch">Previous Searches</h3>
+          <ul id="search-history">
+          </ul>
+    </section>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
